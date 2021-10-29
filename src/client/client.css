@@ -1,0 +1,84 @@
+.centeringBodyElements {
+    display: grid;
+    justify-items: center;
+}
+.roomDiv{
+    width: 25%;
+}
+.roomDiv, .helpDiv {
+    height: max-content;
+    border: solid 2px #969696;
+    border-radius: 8px;
+    background-color: #ebebeb;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 2% 1% 2% 2%;
+}
+.statusContainer {
+    display: grid;
+    justify-items: center;
+}
+.numOfPlayersDiv {
+    margin-bottom: 3%;
+    font-weight: 500;
+    font-size:17px;
+}
+.roomNameDiv {
+    display: grid;
+    justify-items: left;
+    font-weight: 600;
+    font-size: 24px;
+}
+.joinGameButton {
+    border: solid 2px #24a0ed;
+    background-color: #24a0ed;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    text-decoration: none;
+}
+.joinGameButton:hover {
+    border: solid 2px #1183ca;
+    background-color: #1183ca;
+}
+.helpButton {
+    position: absolute;
+    padding: 5px;
+    border: solid 2px #24a0ed;
+    background-color: #24a0ed;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 20px;
+}
+.helpDiv {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.helpNameDiv {
+    width: 300px;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+.helpImages {
+    width: 50px;
+}
+.helpRow {
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.helpListDiv {
+    width: 450px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.helpListItem {
+    margin: 0 0 10px 0;
+}

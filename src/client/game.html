@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tower Climber</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="game.css" media="screen"/>
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.24.0/dist/phaser.min.js"></script>
+    <div class="gameContainer">
+        <div style="margin-bottom: 40px;" class="helpRow">
+            <div class="helpImages">
+                <a href="index.html" class="helpButton">Back To Rooms</a>
+            </div>
+            <div class="statusDiv">
+                <span id="roomStatus"></span>
+            </div>
+            <div class="helpImages">
+                <img src="assets/BasePack/HUD/hud_p1Alt.png" alt="Player">
+            </div>
+        </div>
+        <div id="phaserContainer" class="phaserContainer">
+            <script src="js/game.js"></script>
+            <img src="assets/BasePack/HUD/hud_3.png" id="countdown" class="countdownImage" alt="HUD">
+        </div>
+        <div style="margin: 30px 0 20px 0;" class="helpRow">
+            <div class="helpImages">
+                <img src="assets/BasePack/HUD/hud_p1Alt.png" alt="Player">
+            </div>
+            <div style="font-size: 17px;" class="statusDiv">
+                <span>Player Count: </span>
+                <span id="playerCount"></span>
+            </div>
+            <div class="helpImages">
+                <img src="assets/BasePack/HUD/hud_p3Alt.png" alt="Player">
+            </div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+</body>
+</html>

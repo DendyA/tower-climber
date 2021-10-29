@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="10" height="20" tilewidth="70" tileheight="70" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" name="Terrain" tilewidth="70" tileheight="70" tilecount="22" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/grass.png"/>
+  </tile>
+  <tile id="1">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/grassCenter.png"/>
+  </tile>
+  <tile id="2">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/grassCenter_rounded.png"/>
+  </tile>
+  <tile id="3">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/grassCliffLeft.png"/>
+  </tile>
+  <tile id="4">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/grassCliffLeftAlt.png"/>
+  </tile>
+  <tile id="5">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/grassCliffRight.png"/>
+  </tile>
+  <tile id="6">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/grassCliffRightAlt.png"/>
+  </tile>
+  <tile id="7">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/grassHalf.png"/>
+  </tile>
+  <tile id="8">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/grassHalfLeft.png"/>
+  </tile>
+  <tile id="9">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/grassHalfMid.png"/>
+  </tile>
+  <tile id="10">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/grassHalfRight.png"/>
+  </tile>
+  <tile id="11">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/grassHillLeft.png"/>
+  </tile>
+  <tile id="12">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/grassHillLeft2.png"/>
+  </tile>
+  <tile id="13">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/grassHillRight.png"/>
+  </tile>
+  <tile id="14">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/grassHillRight2.png"/>
+  </tile>
+  <tile id="15">
+   <image width="5" height="24" source="src/client/assets/BasePack/Tiles/grassLedgeLeft.png"/>
+  </tile>
+  <tile id="16">
+   <image width="5" height="24" source="src/client/assets/BasePack/Tiles/grassLedgeRight.png"/>
+  </tile>
+  <tile id="17">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/grassLeft.png"/>
+  </tile>
+  <tile id="18">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/grassMid.png"/>
+  </tile>
+  <tile id="19">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/grassRight.png"/>
+  </tile>
+  <tile id="20">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/leftCliffFace.png"/>
+  </tile>
+  <tile id="21">
+   <image width="70" height="70" source="src/client/assets/BasePack/Tiles/rightCliffFace.png"/>
+  </tile>
+ </tileset>
+ <layer id="2" name="Background" width="10" height="20">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUAAAA=
+  </data>
+ </layer>
+ <layer id="1" name="Foreground" width="10" height="20">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAATAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAgAAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFQAAAAIAAAAWAAAAAAAAAAAAAAAFAAAABwAAAAAAAAAAAAAAAAAAABUAAAACAAAAFgAAAAAAAAAAAAAAFQAAABYAAAAAAAAAAAAAAAAAAAAFAAAAEwAAABMAAAAHAAAAAAAAABUAAAAWAAAABwAAAAAAAAAAAAAAFQAAAAIAAAACAAAAFgAAAAAAAAAVAAAABQAAABYAAAAAAAAAAAAAABUAAAACAAAAAgAAABYAAAAAAAAAFQAAABYAAAAWAAAAEgAAAAYAAAAVAAAAAgAAAAIAAAAWAAAAAAAAABUAAAAWAAAAFgAAAAAAAAAAAAAAFQAAAAIAAAACAAAAFgAAAAAAAAAVAAAAFgAAABYAAAAAAAAABQAAABMAAAATAAAAEwAAABMAAAAHAAAAFQAAABYAAAA=
+  </data>
+ </layer>
+</map>

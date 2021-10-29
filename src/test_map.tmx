@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="8" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="1">
+ <editorsettings>
+  <export target="client/assets/test_map.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="grass" tilewidth="32" tileheight="32" tilecount="4" columns="2">
+  <image source="client/assets/BasePack/Tiles/grass.png" width="70" height="70"/>
+ </tileset>
+ <layer id="1" name="World" width="8" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,1,2,2,2,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+1,2,2,2,2,2,2,2,
+3,3,3,3,3,3,3,3
+</data>
+ </layer>
+</map>
