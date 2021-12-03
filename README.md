@@ -10,4 +10,4 @@ To start the server:
 OR
 ``node src/server.js``
 
-The art assets used in this game, and included in this repo, are from here. Credit to www.kenney.nl.
+The art assets used in this game, and included in this repo, are from [here](https://opengameart.org/content/platformer-art-complete-pack-often-updated?PageSpeed=noscript). Credit to www.kenney.nl.
